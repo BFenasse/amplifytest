@@ -51,3 +51,5 @@ class Board extends React.Component {
     )
   };
 };
+
+export Board;
