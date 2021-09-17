@@ -13,7 +13,7 @@ class Square extends React.Component {
 
 class Row extends React.component {
   renderSquare(i) {
-    return <Square position={i} />
+    return <Square position={i} />;
   };
   render() {
     return (
@@ -34,11 +34,10 @@ class Row extends React.component {
 
 class Board extends React.Component {
   renderRow(i) {
-    return <Row rowNumber={i}>
+    return <Row rowNumber={i} />;
   };
   render() {
     return (
-      <div><text>{status}</text></div>
       <div>{this.renderRow("A")}</div>
       <div>{this.renderRow("B")}</div>
       <div>{this.renderRow("C")}</div>
