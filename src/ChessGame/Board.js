@@ -38,14 +38,16 @@ class Board extends React.Component {
   };
   render() {
     return (
-      <div>{this.renderRow("A")}</div>
-      <div>{this.renderRow("B")}</div>
-      <div>{this.renderRow("C")}</div>
-      <div>{this.renderRow("D")}</div>
-      <div>{this.renderRow("E")}</div>
-      <div>{this.renderRow("F")}</div>
-      <div>{this.renderRow("G")}</div>
-      <div>{this.renderRow("H")}</div>
+      <div>
+        <div>{this.renderRow("A")}</div>
+        <div>{this.renderRow("B")}</div>
+        <div>{this.renderRow("C")}</div>
+        <div>{this.renderRow("D")}</div>
+        <div>{this.renderRow("E")}</div>
+        <div>{this.renderRow("F")}</div>
+        <div>{this.renderRow("G")}</div>
+        <div>{this.renderRow("H")}</div>
+      </div>
     )
   };
 };
