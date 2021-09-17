@@ -37,9 +37,7 @@ class Board extends React.Component {
     return <Row rowNumber={i}>
   };
   render() {
-    const status = "Ok, Now Begin !"
-
-    return(
+    return (
       <div><text>{status}</text></div>
       <div>{this.renderRow("A")}</div>
       <div>{this.renderRow("B")}</div>
